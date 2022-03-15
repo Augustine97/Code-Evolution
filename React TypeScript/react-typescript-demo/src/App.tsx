@@ -9,6 +9,7 @@ import { Oscar } from './components/Oscar';
 import { Person } from './components/Person';
 import { PersonList } from './components/PersonList';
 import { Status } from './components/Status';
+import { LoggedIn } from './components/state/LoggedIn';
 
 function App() {
   const personName = {
@@ -51,6 +52,7 @@ function App() {
       />
       <Input handleChange={(event) => console.log(event)} value='' />
       <Container styles={{ border: '1px solid black', padding: '1 rem' }} />
+      <LoggedIn />
     </div>
   );
 }
