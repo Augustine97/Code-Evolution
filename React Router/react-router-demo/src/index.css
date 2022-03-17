@@ -29,6 +29,6 @@ nav a:hover {
   background-color: darkgoldenrod;
 }
 
-/* nav a.active {
-  font-weight: bold;
-} */
+textarea {
+  margin-left: 500px;
+}
